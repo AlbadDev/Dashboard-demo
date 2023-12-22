@@ -1,9 +1,8 @@
 import './globals.css';
-import '@grapecity/wijmo.styles/wijmo.css';
 import {useState} from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { RadialGauge, Range } from '@grapecity/wijmo.react.gauge';
-import { InputNumber } from '@grapecity/wijmo.react.input';
+// import { RadialGauge, Range } from '@grapecity/wijmo.react.gauge';
+// import { InputNumber } from '@grapecity/wijmo.react.input';
 
 const RadialChart = () => {
   const [state, setState] = useState({

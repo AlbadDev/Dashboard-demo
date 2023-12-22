@@ -41,8 +41,14 @@ export const Dashboard = () => {
       <main className="flex flex-col flex-1 overflow-auto p-4">
         <header className="flex items-center justify-between mb-6">
           <h1 className="text-2xl font-semibold">Dashboard</h1>
-          <div className="flex items-center">
-            <button className="mr-4" variant="outline">
+          <div className="flex items-center ">
+            <button className="mr-10 font-semibold" variant="outline">
+                Add New Page
+              </button>
+            {/* <button className="mr-4" variant="outline">
+              Settings
+            </button> */}
+            <button className="mr-4 font-semibold" variant="outline">
               Settings
             </button>
             <avatar className="w-10 h-10" src="/placeholder.svg?height=40&width=40" />
@@ -83,7 +89,7 @@ export const Dashboard = () => {
           <div className="bg-white shadow rounded p-4">
             <h2 className="text-lg font-semibold mb-2">Uses of Cloud Computing</h2>
             <div className="pt-4">
-              <RadialChart className="w-full aspect-[4/3]" />
+              {/* <RadialChart className="w-full aspect-[4/3]" /> */}
             </div>
           </div>
           {/* RadialChart */}

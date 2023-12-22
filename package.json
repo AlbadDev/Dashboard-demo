@@ -9,9 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@grapecity/wijmo.react.gauge": "^5.20232.939",
-    "@grapecity/wijmo.react.input": "^5.20232.939",
-    "@grapecity/wijmo.styles": "^5.20232.939",
     "@nivo/bar": "^0.84.0",
     "@nivo/line": "^0.84.0",
     "chart.js": "^4.4.1",
